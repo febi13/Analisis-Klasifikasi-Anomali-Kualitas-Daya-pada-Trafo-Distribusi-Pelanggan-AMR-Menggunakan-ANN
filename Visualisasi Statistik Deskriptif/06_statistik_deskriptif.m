@@ -10,7 +10,7 @@
 clear; clc; close all;
 
 %% 1. BACA DATASET
-[~, ~, raw] = xlsread('dataset_input_ANN.xlsx');
+[~, ~, raw] = xlsread('dataset_input_ANN_output.xlsx');
 header = raw(1, :);
 
 % Cari kolom 9 parameter input
